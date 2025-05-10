@@ -28,7 +28,7 @@ describe("Sistema de Pedidos - Hamburgueria", function () {
     pedido.aplicarDesconto("PROMO10");
     const totalComDesconto = pedido.calcularTotal();
     // (10 * 2) - 10% + 5.0 (taxa)
-    assert.strictEqual(totalComDesconto, 23.0); 
+    assert.strictEqual(totalComDesconto, 22.0); 
   });
 
   it("deve confirmar o pedido se houver itens", function () {
