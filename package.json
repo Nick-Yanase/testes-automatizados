@@ -1,0 +1,16 @@
+{
+  "name": "teste-automatizados",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pedido.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "mocha": "^11.2.2"
+  }
+}
